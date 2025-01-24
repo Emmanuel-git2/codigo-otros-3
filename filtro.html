@@ -1,3 +1,5 @@
+<!--Lo primer que hice fue ordenar los archivos del proyecto,
+creando carpetas para el css, img y js -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,20 +7,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="filtro.css">
+<!--Actualizo la nueva ruta de css-->
+  <link rel="stylesheet" href="css/filtro.css">
   <title>Filtros en JS</title>
 </head>
 
 <body>
 
   <div>
-      <input type="text" placeholder="Seleccioná un color o tipo">
-      <button>Filtrar</button>
+    <!--Agrego id al input y al botón para identificarse -->
+      <input type="text" id="filtro-input" placeholder="Seleccioná un color o tipo">
+      <button id="filtrar-btn">Filtrar</button>
       <h1>Lista de productos </h1>
       <div id="lista-de-productos">
+        <p> -</p>
     </div>
   </div>
-  <script src="../filtro.js"></script>
+<!--Actualizo la nueva ruta de js-->
+  <script src="js/filtro.js"></script>
 </body>
 
 </html>
